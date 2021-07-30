@@ -13,23 +13,39 @@
 					Login:			
 				</td>
 				<td>
-					<input type="text" name="reg-login">			
+					<input type="text" required name="reg-login">			
 				</td>
 			</tr>
 			<tr>
 				<td>
-					Password:			
+					Password:
 				</td>
 				<td>
-					<input type="password" name="reg-password">	
+					<input type="password" required min="5" name="reg-password">	
 				</td>
 			</tr>
 			<tr>
 				<td>
-								
+					Email:
 				</td>
 				<td>
-					<input type="submit" name="">
+					<input type="email" required name="reg-mail">	
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Birth:
+				</td>
+				<td>
+					<input type="date" required name="reg-mail">	
+				</td>
+			</tr>							
+			<tr>
+				<td>		
+					<input type="submit" value="Register" name="">
+				</td>
+				<td>
+					<input type="reset" name="">
 				</td>
 			</tr>					
 		</table>
